@@ -1,0 +1,8 @@
+<h2>🎟 Event Ticket</h2>
+<div style="border: 2px solid black; padding: 20px; text-align: center;">
+  <h3><%= @registration.event.name %></h3>
+  <p><%= @registration.event.date.strftime("%B %d, %Y") %></p>
+  <p>🎟 <strong>Tickets:</strong> <%= @registration.tickets %></p>
+  <p>📞 <strong>Contact:</strong> <%= @registration.contact_number %></p>
+  <p>💰 <strong>Total Paid:</strong> ₹<%= @registration.total_price %></p>
+</div>

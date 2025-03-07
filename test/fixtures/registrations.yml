@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_id: 1
+  name: MyString
+  contact_number: MyString
+  tickets: 1
+  total_price: 9.99
+
+two:
+  event_id: 1
+  name: MyString
+  contact_number: MyString
+  tickets: 1
+  total_price: 9.99
